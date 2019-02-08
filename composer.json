@@ -1,0 +1,26 @@
+{
+    "name": "harpya/api-auth",
+    "description": "Authentication helpers to enable secure communications among microservices using Harpya framework.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Luz",
+            "email": "eduluz.canada@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload" : {
+        "psr-4": {
+            "harpya\\api_auth\\" : "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^3.1",
+        "robmorgan/phinx": "^0.10.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+
+}
